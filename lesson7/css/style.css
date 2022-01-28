@@ -262,7 +262,7 @@ address {
 }
 /* 送信ボタンを囲む<div>に対する指定 */
 .form-btn {
-  margin: 30px ;
+  margin: 30px 0;
   text-align: center;
 }
 /* 入力欄に対する指定 */
@@ -274,8 +274,8 @@ textarea{
   border: 1px solid #999;
 }
 /* 入力欄が:focus（入力状態）のとき */
-input[type="text"]:focus
-input[type="email"]:focus
+input[type="text"]:focus,
+input[type="email"]:focus,
 textarea:focus{
   border-color: #032559;
   outline: none;
